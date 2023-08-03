@@ -4,7 +4,7 @@ package bitmask;
  * 비트마스킹은 비트 연산을 사용하여 n번째 비트를 조작하고 데이터로 사용하는 기법입니다.
  */
 
-public class bitmask1 {
+public class BitMask1 {
     public static void main(String[] args) {
         /**
          * 비트를 사용하기 위해 정수형 변수를 선언합니다.
