@@ -71,7 +71,6 @@ public class Backtracking2 {
                 board[row] = -1;
             }
         }
-
         return false;
     }
 
