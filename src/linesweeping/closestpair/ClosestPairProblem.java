@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * 주어진 점들 중에서 가장 가까운 두 점의 거리를 찾습니다.
+ */
 public class ClosestPairProblem {
 
     /**
