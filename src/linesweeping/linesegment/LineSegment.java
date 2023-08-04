@@ -1,4 +1,6 @@
-package linesweeping;
+package linesweeping.linesegment;
+
+import linesweeping.Point;
 
 public class LineSegment {
     private Point start;

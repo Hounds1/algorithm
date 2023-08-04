@@ -1,4 +1,6 @@
-package linesweeping;
+package linesweeping.linesegment;
+
+import linesweeping.Point;
 
 import java.util.ArrayList;
 import java.util.Comparator;
