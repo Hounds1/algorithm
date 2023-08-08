@@ -33,11 +33,18 @@ public class BinarySearchExample {
         int[] arr = {1,3,5,9,10,15,22,35};
         int target = 5;
 
+        long startTime = System.nanoTime();
+
         int result = binarySearch(arr, target);
 
+        long endTime = System.nanoTime();
+        long elapsedTime = endTime - startTime;
+
         if (result != -1)
-            System.out.println("Result is : " + result);
+            System.out.println("Target index is : " + result);
         else
-            System.out.println("No result found");
+            System.out.println("Target index not found");
+
+        System.out.println("ElapsedTime is : " + elapsedTime + "(ns)");
     }
 }
